@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello! How may I assist you today?",
+        "Hi there! What can I help you with?",
+        "Welcome! Feel free to ask anything."
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": ["help", "support", "assist", "guide"],
+      "responses": [
+        "I can help with AI, Python, Networking, Chatbots, and Machine Learning.",
+        "Ask me technical questions — I'm here to help."
+      ]
+    },
+
+    {
+      "tag": "about_bot",
+      "patterns": ["your name", "who are you", "what can you do"],
+      "responses": [
+        "I am an advanced rule-based chatbot created for internship projects.",
+        "I am designed to answer technical questions and provide guidance."
+      ]
+    },
+
+    {
+      "tag": "smalltalk",
+      "patterns": ["how are you", "how's it going"],
+      "responses": [
+        "I'm doing great! Thanks for asking.",
+        "Running smoothly. How about you?"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ]
+    },
+
+    {
+      "tag": "exit",
+      "patterns": ["bye", "exit", "quit", "goodbye"],
+      "responses": [
+        "Goodbye! Have a productive day.",
+        "Thank you for chatting!"
+      ]
+    },
+
+    {
+      "tag": "career",
+      "patterns": ["career", "future", "job"],
+      "responses": [
+        "A career in AI or software development requires strong programming skills.",
+        "Continuous learning is key to success in tech."
+      ]
+    },
+
+    {
+      "tag": "education",
+      "patterns": ["study", "education", "learning"],
+      "responses": [
+        "Consistent practice improves programming skills.",
+        "Learning Python is a great step toward AI and ML."
+      ]
+    }
+  ]
+}
